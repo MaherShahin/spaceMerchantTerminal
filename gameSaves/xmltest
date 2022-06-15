@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.1.1" class="java.beans.XMLDecoder">
+ <object class="Game.Captain" id="Captain0">
+  <void property="credit">
+   <int>40</int>
+  </void>
+  <void property="ship">
+   <object class="Game.Ship">
+    <void property="capacity">
+     <int>2</int>
+    </void>
+    <void property="captain">
+     <object idref="Captain0"/>
+    </void>
+    <void property="currentPort">
+     <object class="Game.Port">
+      <void property="name">
+       <string>Trier</string>
+      </void>
+     </object>
+    </void>
+    <void property="maxCapacity">
+     <int>30</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

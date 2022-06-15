@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.1.1" class="java.beans.XMLDecoder">
+ <object class="Game.Captain" id="Captain0">
+  <void property="credit">
+   <int>85</int>
+  </void>
+  <void property="ship">
+   <object class="Game.Ship" id="Ship0">
+    <void property="capacity">
+     <int>5</int>
+    </void>
+    <void property="captain">
+     <object idref="Captain0"/>
+    </void>
+    <void property="currentPort">
+     <object class="Game.Port" id="Port0">
+      <void property="distanceTo">
+       <void method="put">
+        <object class="Game.Port" id="Port1">
+         <void property="distanceTo">
+          <void method="put">
+           <object class="Game.Port" id="Port2">
+            <void property="distanceTo">
+             <void method="put">
+              <object idref="Port1"/>
+              <int>3</int>
+             </void>
+             <void method="put">
+              <object class="Game.Port" id="Port3">
+               <void property="distanceTo">
+                <void method="put">
+                 <object idref="Port1"/>
+                 <int>1</int>
+                </void>
+                <void method="put">
+                 <object idref="Port2"/>
+                 <int>3</int>
+                </void>
+                <void method="put">
+                 <object idref="Port0"/>
+                 <int>2</int>
+                </void>
+               </void>
+               <void property="name">
+                <string>Tortuga</string>
+               </void>
+               <void property="stock">
+                <void method="put">
+                 <object class="Game.Item" id="Item0">
+                  <void property="name">
+                   <string>Neon</string>
+                  </void>
+                  <void property="tradedInHarborPriceMultiplier">
+                   <void method="put">
+                    <object idref="Port1"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port2"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port3"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port0"/>
+                    <int>1</int>
+                   </void>
+                  </void>
+                  <void property="unitBasePrice">
+                   <int>15</int>
+                  </void>
+                  <void property="unitCapacity">
+                   <int>2</int>
+                  </void>
+                 </object>
+                 <int>10</int>
+                </void>
+                <void method="put">
+                 <object class="Game.Item" id="Item1">
+                  <void property="name">
+                   <string>Halbleiter</string>
+                  </void>
+                  <void property="tradedInHarborPriceMultiplier">
+                   <void method="put">
+                    <object idref="Port1"/>
+                    <int>0</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port2"/>
+                    <int>1</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port3"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port0"/>
+                    <int>2</int>
+                   </void>
+                  </void>
+                  <void property="unitBasePrice">
+                   <int>30</int>
+                  </void>
+                  <void property="unitCapacity">
+                   <int>3</int>
+                  </void>
+                 </object>
+                 <int>0</int>
+                </void>
+                <void method="put">
+                 <object class="Game.Item" id="Item2">
+                  <void property="name">
+                   <string>Treibstoff</string>
+                  </void>
+                  <void property="tradedInHarborPriceMultiplier">
+                   <void method="put">
+                    <object idref="Port1"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port2"/>
+                    <int>3</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port3"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port0"/>
+                    <int>1</int>
+                   </void>
+                  </void>
+                  <void property="unitBasePrice">
+                   <int>1</int>
+                  </void>
+                  <void property="unitCapacity">
+                   <int>1</int>
+                  </void>
+                 </object>
+                 <int>3</int>
+                </void>
+                <void method="put">
+                 <object class="Game.Item" id="Item3">
+                  <void property="name">
+                   <string>Computer</string>
+                  </void>
+                  <void property="tradedInHarborPriceMultiplier">
+                   <void method="put">
+                    <object idref="Port1"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port2"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port3"/>
+                    <int>0</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port0"/>
+                    <int>3</int>
+                   </void>
+                  </void>
+                  <void property="unitBasePrice">
+                   <int>50</int>
+                  </void>
+                  <void property="unitCapacity">
+                   <int>1</int>
+                  </void>
+                 </object>
+                 <int>9</int>
+                </void>
+                <void method="put">
+                 <object class="Game.Item" id="Item4">
+                  <void property="name">
+                   <string>Waschmittel</string>
+                  </void>
+                  <void property="tradedInHarborPriceMultiplier">
+                   <void method="put">
+                    <object idref="Port1"/>
+                    <int>3</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port2"/>
+                    <int>0</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port3"/>
+                    <int>2</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port0"/>
+                    <int>3</int>
+                   </void>
+                  </void>
+                  <void property="unitBasePrice">
+                   <int>10</int>
+                  </void>
+                  <void property="unitCapacity">
+                   <int>4</int>
+                  </void>
+                 </object>
+                 <int>13</int>
+                </void>
+                <void method="put">
+                 <object class="Game.Item" id="Item5">
+                  <void property="name">
+                   <string>Polymer</string>
+                  </void>
+                  <void property="tradedInHarborPriceMultiplier">
+                   <void method="put">
+                    <object idref="Port1"/>
+                    <int>1</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port2"/>
+                    <int>0</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port3"/>
+                    <int>0</int>
+                   </void>
+                   <void method="put">
+                    <object idref="Port0"/>
+                    <int>3</int>
+                   </void>
+                  </void>
+                  <void property="unitBasePrice">
+                   <int>20</int>
+                  </void>
+                  <void property="unitCapacity">
+                   <int>2</int>
+                  </void>
+                 </object>
+                 <int>5</int>
+                </void>
+               </void>
+              </object>
+              <int>2</int>
+             </void>
+             <void method="put">
+              <object idref="Port0"/>
+              <int>0</int>
+             </void>
+            </void>
+            <void property="name">
+             <string>Trier</string>
+            </void>
+            <void property="stock">
+             <void method="put">
+              <object idref="Item0"/>
+              <int>11</int>
+             </void>
+             <void method="put">
+              <object idref="Item1"/>
+              <int>13</int>
+             </void>
+             <void method="put">
+              <object idref="Item2"/>
+              <int>0</int>
+             </void>
+             <void method="put">
+              <object idref="Item3"/>
+              <int>3</int>
+             </void>
+             <void method="put">
+              <object idref="Item4"/>
+              <int>13</int>
+             </void>
+             <void method="put">
+              <object idref="Item5"/>
+              <int>7</int>
+             </void>
+            </void>
+           </object>
+           <int>2</int>
+          </void>
+          <void method="put">
+           <object idref="Port3"/>
+           <int>0</int>
+          </void>
+          <void method="put">
+           <object idref="Port0"/>
+           <int>0</int>
+          </void>
+         </void>
+         <void property="name">
+          <string>Neudorf</string>
+         </void>
+         <void property="stock">
+          <void method="put">
+           <object idref="Item0"/>
+           <int>14</int>
+          </void>
+          <void method="put">
+           <object idref="Item1"/>
+           <int>13</int>
+          </void>
+          <void method="put">
+           <object idref="Item2"/>
+           <int>12</int>
+          </void>
+          <void method="put">
+           <object idref="Item3"/>
+           <int>12</int>
+          </void>
+          <void method="put">
+           <object idref="Item4"/>
+           <int>3</int>
+          </void>
+          <void method="put">
+           <object idref="Item5"/>
+           <int>2</int>
+          </void>
+         </void>
+        </object>
+        <int>0</int>
+       </void>
+       <void method="put">
+        <object idref="Port2"/>
+        <int>3</int>
+       </void>
+       <void method="put">
+        <object idref="Port3"/>
+        <int>3</int>
+       </void>
+      </void>
+      <void property="name">
+       <string>Berlin</string>
+      </void>
+      <void property="stock">
+       <void method="put">
+        <object idref="Item0"/>
+        <int>14</int>
+       </void>
+       <void method="put">
+        <object idref="Item1"/>
+        <int>8</int>
+       </void>
+       <void method="put">
+        <object idref="Item2"/>
+        <int>0</int>
+       </void>
+       <void method="put">
+        <object idref="Item3"/>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object idref="Item4"/>
+        <int>10</int>
+       </void>
+       <void method="put">
+        <object idref="Item5"/>
+        <int>11</int>
+       </void>
+      </void>
+     </object>
+    </void>
+    <void property="fuel">
+     <int>5</int>
+    </void>
+    <void property="maxCapacity">
+     <int>30</int>
+    </void>
+    <void property="shipInventory">
+     <void method="put">
+      <object idref="Item2"/>
+      <int>5</int>
+     </void>
+    </void>
+    <void property="tripCounter">
+     <int>1</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
